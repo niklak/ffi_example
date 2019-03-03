@@ -1,0 +1,11 @@
+[package]
+name = "string_pipe"
+version = "0.1.0"
+authors = ["niklak"]
+edition = "2018"
+
+[dependencies]
+rayon = "1.0.3"
+[lib]
+name = "string_pipe"
+crate-type = ["dylib"]
